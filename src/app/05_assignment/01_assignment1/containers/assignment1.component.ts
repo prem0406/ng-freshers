@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./assignment1.component.css']
 })
 export class Assignment1Component {
+  message: string
 
+  onTextInput(msg: string){
+    this.message = msg
+  }
 }
